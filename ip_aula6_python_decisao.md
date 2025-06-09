@@ -21,6 +21,7 @@ Introdução a Programação
 
 # Agenda
 - *Casting*
+- `if`
 - `if-else`
 - `if-else-elif`
 
