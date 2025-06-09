@@ -1,14 +1,29 @@
 ---
 theme: default
 lineNumbers: true
-layout: intro
-title: Módulos
+colorSchema: dark
+layout: cover
+title: Python
+exportFilename: aula6_python_decisao
 author: José Roberto Bezerra
 ---
 
 # Módulos
-
 Introdução a Programação
+
+---
+
+# Objetivo de Aprendizagen
+- Conhecer módulos de uso geral do Python
+
+---
+
+# Agenda
+- Módulos embutidos
+- `math`
+- `platform`
+- `os`
+
 
 ---
 layout: section
@@ -20,17 +35,15 @@ layout: section
 layout: quote
 ---
 
-> Um módulo Python é um arquivo contendo um conjunto de funções e declarações que podem ser incluído na sua aplicação. Um módulo pode ser entendido como uma biblioteca de códigos. O Python disponibiliza diversos módulos embutidos e existem ainda módulos de terceiros.
+> Um módulo Python é um arquivo contendo um conjunto de funções e declarações que pode ser incluído em um *script*. Um módulo pode ser entendido como uma biblioteca de códigos. O Python disponibiliza diversos módulos embutidos e existem ainda módulos de terceiros.
 
----
-layout: default
 ---
 
 # Módulos embutidos
 - Existem diversos módulos disponíveis
 - Exemplos:
-    - `platform`
     - `math`
+    - `platform`
     - `os`
     - Dentre muitos outros
 
@@ -63,7 +76,6 @@ print(math.fabs(-1))
 print(math.pow(2,3))
 print(math.sqrt(2))
 ```
-
 
 ---
 layout: default
