@@ -4,7 +4,7 @@ lineNumbers: true
 colorSchema: dark
 layout: cover
 title: Python
-exportFilename: aula6_python_decisao
+exportFilename: aula7_python_modulos
 author: José Roberto Bezerra
 ---
 

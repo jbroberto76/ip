@@ -4,7 +4,7 @@ lineNumbers: true
 colorSchema: dark
 layout: cover
 title: Python
-exportFilename: aula4_python
+exportFilename: ip_aula5_python
 author: José Roberto Bezerra
 ---
 
@@ -120,13 +120,12 @@ layout: section
 # Exemplos
 Nomes válidos
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-2xl'}
 age = 21
 _colour = "lilac"
 total_score = 90
 ```
-</Transform>
+
 <!-- <br>
 ```python {*}{class:'!children:text-2lg'}
 age = 21
@@ -139,13 +138,12 @@ total_score = 90
 # Exemplos 
 Nomes inválidos
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+
+```python{*}{class:'!children:text-2xl'}
 1name = "Error"
 class = 10
 user-name = "Doe"
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -160,13 +158,11 @@ layout: two-cols-header
 
 ::right::
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python{*}{class:'!children:text-2xl'}
 x = 5
 y = 3.14
 z = "Hi"
 ```
-</Transform>
 
 ---
 layout: statement
@@ -187,11 +183,10 @@ layout: two-cols-header
 - O exemplo ao lado exibe a `string` literal "Hello, world!" no console
 
 ::right::
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+
+```python{*}{class:'!children:text-2xl'}
 print("Hello, world!")
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -206,13 +201,12 @@ layout: two-cols-header
 ::right::
 
 # Exemplo 1
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+
+```python{*}{class:'!children:text-2xl'}
 name = "Alice"
 age = 30
 print("Name:", name, "Age:", age)
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -228,12 +222,11 @@ layout: two-cols-header
 ::right::
 
 # Exemplo 2
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+
+```python{*}{class:'!children:text-2xl'}
 x, y, z = 1, 2.5, "Python"
 print(x, y, z)
 ```
-</Transform>
 
 ---
 
@@ -263,12 +256,10 @@ layout: two-cols-header
 
 ::right::
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python{*}{class:'!children:text-2xl'}
 val = input("Entre um valor: ")
 print(val)
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -284,19 +275,16 @@ layout: two-cols-header
 
 ::right::
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'} 
+```python{*}{class:'!children:text-2xl'} 
 name = input('Qual seu nome?\n')
 print(name)
 ```
-</Transform>
 
 ---
 
 # Exemplo
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python{*}{class:'!children:text-2xl'}
 num = input ("Entre com um número :")
 print(num)
 name1 = input("Entre com um nome : ")
@@ -304,7 +292,6 @@ print(name1)
 print ("Tipo do número", type(num))
 print ("Tipo do nome", type(name1))
 ```
-</Transform>
 
 ---
 layout: fact
