@@ -2,13 +2,14 @@
 theme: default
 lineNumbers: true
 colorSchema: dark
-layout: cover
-title: Python
-exportFilename: aula7_python_modulos
+layout: image
+image: ./img/layered-steps-right.svg
+title: Módulos
+exportFilename: ip_aula7_python_modulos
 author: José Roberto Bezerra
 ---
 
-# Módulos
+# {{ $slidev.configs.title }}
 Introdução a Programação
 
 ---
@@ -84,3 +85,13 @@ layout: default
 # Referências
 - [W3 Schools](https://www.w3schools.com/python/python_modules.asp)
 - [Python Math](https://docs.python.org/3/library/math.html)
+
+---
+layout: image
+image: ./img/layered-steps-down.svg
+---
+
+# Prof. {{ $slidev.configs.author }}
+jbroberto@ifce.edu.br
+<br><br><br><br><br><br>
+<PoweredBySlidev />
