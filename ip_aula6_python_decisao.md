@@ -3,7 +3,7 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layred-steps-haikei.svg
+image: ./img/layered-steps-right.svg
 title: Estruturas de Decisão
 exportFilename: ip_aula6_python_decisao
 author: José Roberto Bezerra
@@ -297,10 +297,11 @@ else:
 - [https://www.geeksforgeeks.org/conditional-statements-in-python/](https://www.geeksforgeeks.org/conditional-statements-in-python/)
 
 ---
-layout: end
+layout: image
+image: ./img/layered-steps-down.svg
 ---
 
 # Prof. José Roberto Bezerra
 jbroberto@ifce.edu.br
-<br><br>
+<br><br><br><br><br><br>
 <PoweredBySlidev />
