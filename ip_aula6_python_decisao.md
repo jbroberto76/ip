@@ -3,7 +3,7 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/cover.svg
+image: ./img/layred-steps-haikei.svg
 title: Estruturas de Decisão
 exportFilename: ip_aula6_python_decisao
 author: José Roberto Bezerra
