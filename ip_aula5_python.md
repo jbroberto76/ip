@@ -2,26 +2,24 @@
 theme: default
 lineNumbers: true
 colorSchema: dark
-layout: cover
+layout: image
+image: ./img/layered-steps-right.svg
 title: Python
-exportFilename: aula4_python
+exportFilename: ip_aula5_python
 author: José Roberto Bezerra
 ---
 
-# Primeiros Passos com Python
+# {{ $slidev.configs.title }}
 Introdução a Programação
-
 <logos-python />
 ---
 
 # Objetivo de Aprendizagem
-
-Compreender os conceitos elementares da linguagem Python
+- Compreender os conceitos elementares da linguagem Python
 
 ---
 
 # Agenda
-
 - O que é Python?
 - Elementos de um Sistema Computacional
 - Variáveis
@@ -49,8 +47,6 @@ layout: quote
 
 > O Python foi lançado no início da década de 90 pelo programador e matemático holandês Guido Van Rossum. A linguagem foi projetada para dar ênfase no trabalho do desenvolvedor, facilitando a escrita de um código limpo, simples e legível, tanto em aplicações menores quanto em programas mais complexos.
 
----
-layout: default
 ---
 
 # Por que Python?
@@ -120,32 +116,23 @@ layout: section
 # Exemplos
 Nomes válidos
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+
+```python {*}{class:'!children:text-xl'}
 age = 21
 _colour = "lilac"
 total_score = 90
 ```
-</Transform>
-<!-- <br>
-```python {*}{class:'!children:text-2lg'}
-age = 21
-_colour = "lilac"
-total_score = 90
-``` -->
 
 ---
 
 # Exemplos 
 Nomes inválidos
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-xl'}
 1name = "Error"
 class = 10
 user-name = "Doe"
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -160,13 +147,11 @@ layout: two-cols-header
 
 ::right::
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-xl'}
 x = 5
 y = 3.14
 z = "Hi"
 ```
-</Transform>
 
 ---
 layout: statement
@@ -187,11 +172,9 @@ layout: two-cols-header
 - O exemplo ao lado exibe a `string` literal "Hello, world!" no console
 
 ::right::
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-xl'}
 print("Hello, world!")
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -206,13 +189,11 @@ layout: two-cols-header
 ::right::
 
 # Exemplo 1
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-xl'}
 name = "Alice"
 age = 30
 print("Name:", name, "Age:", age)
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -228,12 +209,10 @@ layout: two-cols-header
 ::right::
 
 # Exemplo 2
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-xl'}
 x, y, z = 1, 2.5, "Python"
 print(x, y, z)
 ```
-</Transform>
 
 ---
 
@@ -263,12 +242,10 @@ layout: two-cols-header
 
 ::right::
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-xl'}
 val = input("Entre um valor: ")
 print(val)
 ```
-</Transform>
 
 ---
 layout: two-cols-header
@@ -284,19 +261,16 @@ layout: two-cols-header
 
 ::right::
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'} 
+```python {*}{class:'!children:text-xl'}
 name = input('Qual seu nome?\n')
 print(name)
 ```
-</Transform>
 
 ---
 
 # Exemplo
 
-<Transform :scale="1.5">
-```python{*}{class:'!children:text-2lg'}
+```python {*}{class:'!children:text-xl'}
 num = input ("Entre com um número :")
 print(num)
 name1 = input("Entre com um nome : ")
@@ -304,7 +278,6 @@ print(name1)
 print ("Tipo do número", type(num))
 print ("Tipo do nome", type(name1))
 ```
-</Transform>
 
 ---
 layout: fact
@@ -319,22 +292,18 @@ layout: section
 # Exercícios
 
 ---
-layout: fact
----
 
 # 1
-Criar um *script* em Python para que o usuário se apresente informando seu nome, sobrenome e idade. Ao final, exiba uma mensagem contendo essas 3 informações dadas pelo usuário.
 
----
-layout: fact
+> Criar um *script* em Python para que o usuário se apresente informando seu nome, sobrenome e idade. Ao final, exiba uma mensagem contendo essas 3 informações dadas pelo usuário.
+
 ---
 
 # 2
-Criar um *script* em Python que solicita ao usuário informar: Logradouro onde mora (Rua, Avenida, etc), número, cidade, estado e CEP. Depois, exiba uma mensagem formatada com todas essas informações similar ao exemplo a seguir.<br>
+
+> Criar um *script* em Python que solicita ao usuário informar: Logradouro onde mora (Rua, Avenida, etc), número, cidade, estado e CEP. Depois, exiba uma mensagem formatada com todas essas informações similar ao exemplo a seguir.<br>
 `Rua das Palmeiras, 123`<br>`Belo Horizonte/MG`<br>`30123-456`<br>
 
----
-layout: default
 ---
 
 # Referências
@@ -344,10 +313,11 @@ layout: default
 - [Python Development On Your Android Device](https://pydroid.app/)
 
 ---
-layout: end
+layout: image
+image: ./img/layered-steps-down.svg
 ---
 
-# Prof. José Roberto Bezerra
+# {{ $slidev.configs.author }}
 jbroberto@ifce.edu.br
-<br><br>
+<br><br><br><br><br><br>
 <PoweredBySlidev />

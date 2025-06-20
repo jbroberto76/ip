@@ -9,7 +9,7 @@ exportFilename: ip_aula6_python_decisao
 author: José Roberto Bezerra
 ---
 
-# Estruturas de Decisão
+# {{ $slidev.configs.title }}
 Introdução a Programação
 
 ---
@@ -203,7 +203,7 @@ elif age <= 19:
 elif age <= 35:
     print("Jovem adulto.")
 else:
-    print("Adult.")
+    print("Adulto.")
 ```
 
 ---
@@ -302,7 +302,7 @@ layout: image
 image: ./img/layered-steps-down.svg
 ---
 
-# Prof. José Roberto Bezerra
+# {{ $slidev.configs.author }}
 jbroberto@ifce.edu.br
 <br><br><br><br><br><br>
 <PoweredBySlidev />

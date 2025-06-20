@@ -2,26 +2,24 @@
 theme: default
 lineNumbers: true
 colorSchema: dark
-layout: cover
+layout: image
+image: ./img/layered-steps-right.svg
 title: Álgebra de Boole
 exportFilename: aula1_boole
 author: José Roberto Bezerra
 ---
 
-# Conceitos de Álgebra de Boole
-
+# {{ $slidev.configs.title }}
 Introdução a Programação
 
 ---
 
 # Objetivo de Aprendizagem
-
-Compreender os conceitos elementares da Álgebra de *Boole*
+- Compreender os conceitos elementares da Álgebra de *Boole*
 
 ---
 
 # Agenda
-
 - Álgebra de dois valores
 - Tabela verdade
 - Operadores AND (E) e OR (OU)
@@ -422,9 +420,17 @@ Para cada uma das expressões booleanas abaixo, escrever a tabela verdade para d
 2. $S = AB + \overline{CD}$
 
 ---
-layout: default
----
 
 # Referências
 - [George Boole](https://pt.wikipedia.org/wiki/George_Boole)
 - [Brasil Escola](https://brasilescola.uol.com.br/informatica/algebra-booleana.htm)
+
+---
+layout: image
+image: ./img/layered-steps-down.svg
+---
+
+# {{ $slidev.configs.author }}
+jbroberto@ifce.edu.br
+<br><br><br><br><br><br>
+<PoweredBySlidev />

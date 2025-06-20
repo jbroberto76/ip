@@ -2,7 +2,8 @@
 theme: default
 lineNumbers: true
 colorSchema: dark
-layout: cover
+layout: image
+image: ./img/layered-steps-right.svg
 title: Simplificação de Expressões Booleanas
 exportFilename: ip_aula2_simp_exp
 author: José Roberto Bezerra
@@ -13,14 +14,13 @@ Introdução a Programação
 
 ---
 
-# Objetivo de Aprendizagem
+# Objetivos de Aprendizagem
 - Conhecer propriedades elementares
 - Simplificar expressões booleanas
 
 ---
 
 # Agenda
-
 - Propriedades da Álgebra de Boole
 - Teoremas de De Morgan
 - Simplificação de Expressões
@@ -377,9 +377,11 @@ Aplique as propriedades da Álgebra de Boole para simplificar as expressões $F_
 - $F_{max} = (A+B+C) \cdot (A+B+\overline{C}) \cdot (\overline{A}+B+C) \cdot (\overline{A}+\overline{B}+\overline{C})$ 
 
 ---
+layout: image
+image: ./img/layered-steps-down.svg
+---
 
-<!-- # Referências
-
-- 
-
-<PoweredBySlidev /> -->
+# {{ $slidev.configs.author }}
+jbroberto@ifce.edu.br
+<br><br><br><br><br><br>
+<PoweredBySlidev />

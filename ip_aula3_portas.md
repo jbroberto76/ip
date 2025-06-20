@@ -2,7 +2,8 @@
 theme: default
 lineNumbers: true
 colorSchema: dark
-layout: cover
+ayout: image
+image: ./img/layered-steps-right.svg
 title: Portas Lógicas
 exportFilename: ip_aula3_portas
 author: José Roberto Bezerra
@@ -10,7 +11,6 @@ author: José Roberto Bezerra
 
 # {{ $slidev.configs.title }}
 Introdução a Programação<br>
-Prof. {{ $slidev.configs.author }}
 
 ---
 
@@ -21,7 +21,6 @@ Prof. {{ $slidev.configs.author }}
 ---
 
 # Agenda
-
 - Portas lógicas
 - Conversão de expressões lógicas em circuitos digitais
 
@@ -255,11 +254,11 @@ Use o simulador *Circuit Verse* para comparar os circuitos das questões 2 e 3 e
 
 --> 
 ---
-layout: end
+layout: image
+image: ./img/layered-steps-down.svg
 ---
 
-# Prof. {{ $slidev.configs.author }}<br>
+# {{ $slidev.configs.author }}
 jbroberto@ifce.edu.br
-
-<br><br><br>
+<br><br><br><br><br><br>
 <PoweredBySlidev />

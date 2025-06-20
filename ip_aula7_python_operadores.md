@@ -9,7 +9,7 @@ exportFilename: aula7_python_operadores
 author: José Roberto Bezerra
 ---
 
-# Operadores
+# {{ $slidev.configs.title }}
 Introdução a Programação
 
 ---
@@ -458,7 +458,7 @@ layout: image
 image: ./img/layered-steps-down.svg
 ---
 
-# Prof. José Roberto Bezerra
+# {{ $slidev.configs.author }}
 jbroberto@ifce.edu.br
 <br><br><br><br><br><br>
 <PoweredBySlidev />
