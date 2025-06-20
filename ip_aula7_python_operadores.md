@@ -9,7 +9,7 @@ exportFilename: aula7_python_operadores
 author: José Roberto Bezerra
 ---
 
-# Módulos
+# Operadores
 Introdução a Programação
 
 ---
@@ -20,7 +20,7 @@ Introdução a Programação
 ---
 
 # Agenda
-- Funções matemáticas padrão
+- Módulos
 - `math`
 - Operadores
 - Formatação de números
@@ -30,7 +30,7 @@ Introdução a Programação
 layout: section
 ---
 
-# Módulos Embutidos
+# Módulos Externos
 
 ---
 layout: quote
@@ -40,7 +40,7 @@ layout: quote
 
 ---
 
-# Módulos embutidos
+# Módulos Típicos
 - Existem diversos módulos disponíveis
 - Exemplos:
     - `math`
