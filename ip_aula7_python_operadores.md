@@ -5,7 +5,7 @@ colorSchema: dark
 layout: image
 image: ./img/layered-steps-right.svg
 title: Operadores
-exportFilename: aula7_python_operadores
+exportFilename: ip_aula7_python_operadores
 author: José Roberto Bezerra
 ---
 
