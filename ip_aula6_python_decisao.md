@@ -10,6 +10,7 @@ author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
+# {{ $slidev.configs.title }}
 Introdução a Programação
 
 ---
@@ -198,11 +199,12 @@ idade = 25
 
 if idade <= 12:
     print("Criança.")
-elif age <= 19:
+elif idade <= 19:
     print("Adolescente.")
-elif age <= 35:
+elif idade <= 35:
     print("Jovem adulto.")
 else:
+    print("Adulto")
     print("Adulto.")
 ```
 
@@ -272,6 +274,7 @@ layout: statement
 Crie um programa que simule um sistema de login simples. O programa deve pedir ao usuário um nome de usuário e uma senha e checar se:
 - O nome de usuário tem pelo menos 3 caracteres.
 - A senha tem exatamente 6 dígitos (e é numérica).
+
 Se tudo estiver correto, exibir: "Login criado com sucesso!", Caso contrário, informar qual regra não foi atendida (ex: "Senha deve ter 6 dígitos numéricos!").
 
 <!-- ```python
@@ -302,6 +305,7 @@ layout: image
 image: ./img/layered-steps-down.svg
 ---
 
+# Prof. {{ $slidev.configs.author }}
 # {{ $slidev.configs.author }}
 jbroberto@ifce.edu.br
 <br><br><br><br><br><br>

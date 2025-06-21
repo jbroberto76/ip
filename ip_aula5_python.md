@@ -6,6 +6,7 @@ layout: image
 image: ./img/layered-steps-right.svg
 title: Python
 exportFilename: ip_aula5_python
+exportFilename: ip_aula5_python
 author: José Roberto Bezerra
 ---
 
@@ -116,6 +117,7 @@ layout: section
 # Exemplos
 Nomes válidos
 
+```python {*}{class:'!children:text-2xl'}
 
 ```python {*}{class:'!children:text-xl'}
 age = 21
@@ -123,11 +125,20 @@ _colour = "lilac"
 total_score = 90
 ```
 
+<!-- <br>
+```python {*}{class:'!children:text-2lg'}
+age = 21
+_colour = "lilac"
+total_score = 90
+``` -->
+
 ---
 
 # Exemplos 
 Nomes inválidos
 
+
+```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 1name = "Error"
 class = 10
@@ -147,6 +158,7 @@ layout: two-cols-header
 
 ::right::
 
+```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 x = 5
 y = 3.14
@@ -172,6 +184,8 @@ layout: two-cols-header
 - O exemplo ao lado exibe a `string` literal "Hello, world!" no console
 
 ::right::
+
+```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 print("Hello, world!")
 ```
@@ -189,6 +203,8 @@ layout: two-cols-header
 ::right::
 
 # Exemplo 1
+
+```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 name = "Alice"
 age = 30
@@ -209,6 +225,8 @@ layout: two-cols-header
 ::right::
 
 # Exemplo 2
+
+```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 x, y, z = 1, 2.5, "Python"
 print(x, y, z)
@@ -242,6 +260,7 @@ layout: two-cols-header
 
 ::right::
 
+```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 val = input("Entre um valor: ")
 print(val)
@@ -261,6 +280,7 @@ layout: two-cols-header
 
 ::right::
 
+```python{*}{class:'!children:text-2xl'} 
 ```python {*}{class:'!children:text-xl'}
 name = input('Qual seu nome?\n')
 print(name)
@@ -270,6 +290,7 @@ print(name)
 
 # Exemplo
 
+```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 num = input ("Entre com um número :")
 print(num)
