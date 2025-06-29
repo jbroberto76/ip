@@ -72,3 +72,11 @@ Agenda
 - Funções de texto padrão
 
 ## Aula 8
+
+Objetivo de Aprendizagen
+- Conhecer e aplicar estruturas de repetição
+
+Agenda
+- Listas
+- `for`
+- `while`
