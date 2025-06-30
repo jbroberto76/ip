@@ -80,3 +80,15 @@ Agenda
 - Listas
 - `for`
 - `while`
+
+## Aula 9
+
+Objetivo de Aprendizagem
+- Construir funções personalizadas
+
+Agenda
+- 
+
+## Aula 10
+
+
