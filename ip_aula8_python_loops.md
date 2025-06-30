@@ -107,7 +107,7 @@ print(f'Penúltima fruta: {frutas[-2]}')
 *Slicing*
 
 - Extrair uma sublista ou fração de uma lista existente
-- Sintaxe: `lista[incio:fim:passo]`
+- Sintaxe: `lista[inicio:fim:passo]`
     - `inicio` índice inicial do fatiamento
     - `fim` índice do último item do fatiamento mais um
     - `passo` quantidade de saltos de cada item (**opcional**)
