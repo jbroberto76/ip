@@ -10,7 +10,6 @@ author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-# {{ $slidev.configs.title }}
 Introdução a Programação
 
 ---
@@ -306,7 +305,6 @@ image: ./img/layered-steps-down.svg
 ---
 
 # Prof. {{ $slidev.configs.author }}
-# {{ $slidev.configs.author }}
 jbroberto@ifce.edu.br
 <br><br><br><br><br><br>
 <PoweredBySlidev />

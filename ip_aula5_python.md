@@ -6,7 +6,6 @@ layout: image
 image: ./img/layered-steps-right.svg
 title: Python
 exportFilename: ip_aula5_python
-exportFilename: ip_aula5_python
 author: José Roberto Bezerra
 ---
 
@@ -130,7 +129,8 @@ total_score = 90
 age = 21
 _colour = "lilac"
 total_score = 90
-``` -->
+```
+-->
 
 ---
 
