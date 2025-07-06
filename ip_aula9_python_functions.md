@@ -15,12 +15,13 @@ Introdução a Programação
 ---
 
 # Objetivo de Aprendizagen
-- Construir funções do usuário
+- Construir funções personalizadas
+- Utilizar módulos
 
 ---
 
 # Agenda
-- Conceito
+- Funções personalizadas
 - Módulos
 
 ---
@@ -329,8 +330,9 @@ Crie um *script* em Python que utiliza a função criada no exercício anterior 
 ---
 
 # Referências
-- [Python.org](https://docs.python.org/pt-br/3.13/tutorial/controlflow.html)
-- [Python Academy](https://pythonacademy.com.br/blog/estruturas-de-repeticao)
+- [Funções e Módulos em Python](https://luizteixeira.dev.br/funcoes-e-modulos-em-python-um-guia-completo/)
+- [Python Functions](https://www.w3schools.com/python/python_functions.asp)
+- [Python Modules](https://www.w3schools.com/python/python_modules.asp)
 
 ---
 layout: image

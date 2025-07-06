@@ -83,11 +83,13 @@ Agenda
 
 ## Aula 9
 
-Objetivo de Aprendizagem
+Objetivo de Aprendizagen
 - Construir funções personalizadas
+- Utilizar módulos
 
 Agenda
-- 
+- Funções personalizadas
+- Módulos 
 
 ## Aula 10
 

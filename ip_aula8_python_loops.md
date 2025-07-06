@@ -5,7 +5,7 @@ colorSchema: dark
 layout: image
 image: ./img/layered-steps-right.svg
 title: Estruturas de Repetição
-exportFilename: ip_aula08_python_loops
+exportFilename: ip_aula8_python_loops
 author: José Roberto Bezerra
 ---
 
