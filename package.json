@@ -3,6 +3,7 @@
     "playwright-chromium": "^1.49.1"
   },
   "dependencies": {
-    "@iconify-json/logos": "^1.2.4"
+    "@iconify-json/logos": "^1.2.4",
+    "@slidev/theme-default": "^0.25.0"
   }
 }

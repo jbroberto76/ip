@@ -92,5 +92,11 @@ Agenda
 - Módulos 
 
 ## Aula 10
+Objetivo de Aprendizagen
+- Aplicar os módulos `matplotlib` e `seaborn` para visualização de dados
+
+Agenda
+- Matplotlib
+- Seaborn
 
 
