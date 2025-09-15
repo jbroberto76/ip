@@ -3,7 +3,7 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layered-steps-right.svg
+image: /img/layered-steps-right.svg
 title: Álgebra de Boole
 exportFilename: ip_aula1_boole
 author: José Roberto Bezerra
@@ -389,7 +389,7 @@ layout: fact
 # Perguntas
 
 ---
-layout: section
+layout: fact
 ---
 
 # Exercícios
