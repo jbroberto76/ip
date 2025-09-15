@@ -1,7 +1,9 @@
+![](/img/layered-steps-down.svg)
+
 # Introdução a Programação
 Prof. José Roberto Bezerra
 
-## Aula 1
+## Aula 1 - Álgebra de *Boole*
 
 Objetivo de Aprendizagem
 - Compreender os conceitos elementares da Álgebra de *Boole*

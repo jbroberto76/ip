@@ -5,7 +5,7 @@ colorSchema: dark
 layout: image
 image: ./img/layered-steps-right.svg
 title: Álgebra de Boole
-exportFilename: aula1_boole
+exportFilename: ip_aula1_boole
 author: José Roberto Bezerra
 ---
 
@@ -38,8 +38,6 @@ layout: quote
 > Define-se como Álgebra de *Boole* (ou Booleana) um conjunto de operadores que são assumidos como válidos sem necessidade de prova.
 
 ---
-layout: default
----
 
 # Características AB
 
@@ -54,8 +52,6 @@ layout: default
 - **O que há em comum com esses valores?**
 
 ---
-layout: default
----
 
 # Funções Reais
 
@@ -63,25 +59,29 @@ layout: default
 - Como poderíamos representar todos os valores dessa função?
 
 ---
-layout: default
+
+# Função
+
+|  $x$ | $f(x)$ |
+|:--:|:----:|
+|  0 |   5  |
+|  1 |   6  |
+|  2 |   7  |
+|  3 |   8  |
+|  4 |   9  |
+|  5 |  10  |
+
+
 ---
 
 # Gráfico
 
-|  $x$ | $f(x)$ |
-|:--:|:----:|
-| -5 |   0  |
-|  0 |   5  |
-|  5 |  10  |
-
----
-
 ```mermaid
 xychart-beta
     title "f(x) = x + 5"
-    x-axis "x" 0 --> 10 
+    x-axis "x" 0 --> 5 
     y-axis "y" 0 --> 10
-    line [0, 5, 10]
+    line [5, 6, 7, 8, 9, 10]
 ```
 
 ---
@@ -129,14 +129,16 @@ layout: quote
 
 # OR
 
+> A operação **OR** resulta 1 se pelo menos uma das variáveis de entrada vale 1. Também conhecida como adição lógica.
+
+<br>
+
 | $0 + 0$ |   =  |  ? |
 |:--:|:----:|:---:|
 |  $0+1$  |   =  | ? |
 |  $1+0$  |   =  | ? |
 |  $1+1$  |   =  |  ? |
 
----
-layout: default
 ---
 
 # OR
@@ -147,8 +149,6 @@ layout: default
 |  $1+0$  |   =  | 1 |
 |  $1+1$  |   =  | 1 |
 
----
-layout: default
 ---
 
 # Tabela Verdade OR
@@ -161,8 +161,6 @@ layout: default
 |  1  |   1  | 1 |
 
 
----
-layout: default
 ---
 
 # Características OR
@@ -179,10 +177,12 @@ layout: quote
 
 
 ---
-layout: default
----
 
 # AND
+
+> A operação **AND** resulta 0 se pelo menos uma das variáveis de entrada valer 0. Também conhecida como multiplicação lógica
+
+<br>
 
 | $0 + 0$ |   =  | ? |
 |:--:|:----:|:---:|
@@ -228,8 +228,6 @@ layout: quote
 
 > A operação NOT tem como resultado o valor complementar ao que a variável apresenta. Também chamado de Negação, Inversão ou Complementação.
 
----
-layout: default
 ---
 
 # NOT
@@ -284,56 +282,43 @@ layout: fact
 # $W = X + Y \cdot \overline{Z}$
 
 ---
-layout: two-cols-header
----
 
 # Exemplo
+$W = X + Y \cdot \overline{Z}$
 
-::left::
+<br>
 
 - Quais as variáveis de entrada?
 - Quantas linhas são necessárias para escrever a TV?
 - Qual a precedência entre as operações?
 
-::right::
-
-$W = X + Y \cdot \overline{Z}$
-
 ---
 
 # Quais as variáveis de entrada?
+$W = X + Y \cdot \overline{Z}$
+
+<br>
 
 > A variável de saída $W$ é expressa como uma função de 3 variáveis de entrada, $X$, $Y$ e $Z$
 
 ---
 
 # Quantas linhas são necessárias na TV?
+$W = X + Y \cdot \overline{Z}$
 
-::left::
+<br>
 
 > Se temos 3 variáveis de entrada, existem $2^3$ combinações possíveis dos valores, logo a TV contém 8 linhas.
 
-::right::
-
-$W = X + Y \cdot \overline{Z}$
-
-
----
-layout: default
 ---
 
 # Qual a precedência entre as operações?
-
-::left::
+$W = X + Y \cdot \overline{Z}$
 
 - Assim como nas expressões algébricas, nas booleanas há precedência nas operações da seguinte forma:
   - AND
   - OR
   - NOT (Assim que possível)
-
-::right::
-
-$W = X + Y \cdot \overline{Z}$
 
 ---
 layout: full
@@ -378,11 +363,11 @@ layout: section
 
 # Exemplo de Aplicação
 
-Em um processo químico é desejável que um alarme seja ativado sempre que a temperatura exceder um certo valor máximo ou sempre que a pressão estiver acima de um certo limite.
+Em um processo químico é desejável que um alarme seja ativado sempre que a temperatura exceder um certo valor máximo ou sempre que a pressão estiver acima de um certo limite. Como o seria o diagrama de blocos de uma solução tecnológica para esse problema?
 
 ---
 
-# Esquema
+# Diagrama
 
 ```mermaid {scale: 1}
 graph LR
@@ -407,17 +392,23 @@ layout: fact
 layout: section
 ---
 
-# Para casa 
+# Exercícios
 
 ---
-layout: fact
----
 
-# Exercício
-
+# 1
 Para cada uma das expressões booleanas abaixo, escrever a tabela verdade para determinar o valor da variável de saída $S$.
 1. $S = \overline{A} + B\overline{C}$
 2. $S = AB + \overline{CD}$
+3. $S = X + Y + \overline{ZW}$
+
+---
+
+# 2
+Em um sistema de segurança residencial, uma sirene deve ser acionada sempre que a porta principal estiver aberta E o sensor de movimento interno for ativado após o horário programado (22h). No entanto, o morador pode desativar manualmente todo o sistema com uma chave, independentemente das outras condições.
+
+- Como seria o diagrama de blocos de uma solução tecnológica para esse problema?
+- Identifique também as variáveis de entrada e a saída.
 
 ---
 
@@ -431,6 +422,12 @@ image: ./img/layered-steps-down.svg
 ---
 
 # {{ $slidev.configs.author }}
-jbroberto@ifce.edu.br
-<br><br><br><br><br><br>
+jbroberto@ifce.edu.br<br><br>
+https://gihtub.com/jbroberto76
+
+
+
+<br><br><br>
 <PoweredBySlidev />
+
+##### Imagem by [https://haikei.app/](https://haikei.app/)
