@@ -6,6 +6,10 @@
     ul {
       font-size: 24px
     }
+
+    strong {
+      color: #3ab9d5;
+    }
   }
 
   pre, code {
