@@ -3,7 +3,7 @@
 # Introdução a Programação
 Prof. José Roberto Bezerra
 
-## Aula 1 - Álgebra de *Boole*
+### Aula 1 - Álgebra de *Boole*
 
 Objetivo de Aprendizagem
 - Compreender os conceitos elementares da Álgebra de *Boole*
@@ -13,8 +13,7 @@ Agenda
 - Tabela verdade
 - Operadores AND (E) e OR (OU)
 
-
-## Aula 2
+### Aula 2 - Simplificação de Expressões
 
 Objetivos de Aprendizagem
 - Conhecer propriedades elementares
@@ -27,7 +26,7 @@ Agenda
     - Soma de Produtos
     - Produto de Somas
 
-## Aula 3
+### Aula 3
 
 Objetivos de Aprendizagem
 - Conhecer circuitos que representam funções booleanas elementares

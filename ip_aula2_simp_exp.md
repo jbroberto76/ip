@@ -4,13 +4,14 @@ lineNumbers: true
 colorSchema: dark
 layout: image
 image: ./img/layered-steps-right.svg
-title: Simplificação de Expressões Booleanas
+title: Simplificação de Expressões
+description: Introdução a Programação
 exportFilename: ip_aula2_simp_exp
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-Introdução a Programação
+{{ $slidev.configs.description }}
 
 ---
 
@@ -106,7 +107,13 @@ $$
 # Demonstração
 Primeiro Teorema de De Morgan
 
-| **$A$** | **$B$** | **$\overline{A \cdot B}$** | **$\overline{A}+\overline{B}$** |
+$$
+\begin{aligned}
+\overline{A \cdot B} = \overline{A} + \overline{B}
+\end{aligned}
+$$
+
+| $A$ | $B$ | $\overline{A \cdot B}$ | $\overline{A}+\overline{B}$ |
 |:-------:|:-------:|:--------------------------:|:-------------------------------:|
 |    0    |    0    |              ?             |                ?                |
 |    0    |    1    |              ?             |                ?                |
@@ -118,19 +125,31 @@ Primeiro Teorema de De Morgan
 # Demonstração
 Primeiro Teorema de De Morgan
 
-| **$A$** | **$B$** | **$\overline{A \cdot B}$** | **$\overline{A}+\overline{B}$** |
+$$
+\begin{aligned}
+\overline{A \cdot B} = \overline{A} + \overline{B}
+\end{aligned}
+$$
+
+| $A$ | $B$ | $\overline{A \cdot B}$ | $\overline{A}+\overline{B}$ |
 |:-------:|:-------:|:--------------------------:|:-------------------------------:|
-|    0    |    0    |              1             |                1                |
-|    0    |    1    |              1             |                1                |
-|    1    |    0    |              1             |                1                |
-|    1    |    1    |              0             |                0                |
+|    0    |    0    |              **1**         |            **1**                |
+|    0    |    1    |              **1**         |            **1**                |
+|    1    |    0    |              **1**         |            **1**                |
+|    1    |    1    |              **0**         |            **0**                |
 
 ---
 
 # Demonstração
 Segundo Teorema de De Morgan
 
-| **$A$** | **$B$** | **$\overline{A + B}$** | **$\overline{A} \cdot \overline{B}$** |
+$$
+\begin{aligned}
+\overline{A + B} = \overline{A} \cdot \overline{B}
+\end{aligned}
+$$
+
+| $A$ | $B$ | $\overline{A + B}$ | $\overline{A} \cdot \overline{B}$ |
 |:-------:|:-------:|:----------------------:|:-------------------------------------:|
 |    0    |    0    |            ?           |                   ?                   |
 |    0    |    1    |            ?           |                   ?                   |
@@ -142,12 +161,18 @@ Segundo Teorema de De Morgan
 # Demonstração
 Segundo Teorema de De Morgan
 
-| **$A$** | **$B$** | **$\overline{A + B}$** | **$\overline{A} \cdot \overline{B}$** |
+$$
+\begin{aligned}
+\overline{A + B} = \overline{A} \cdot \overline{B}
+\end{aligned}
+$$
+
+| $A$ | $B$ | $\overline{A + B}$ | $\overline{A} \cdot \overline{B}$ |
 |:-------:|:-------:|:----------------------:|:-------------------------------------:|
-|    0    |    0    |            1           |                   1                   |
-|    0    |    1    |            0           |                   0                   |
-|    1    |    0    |            0           |                   0                   |
-|    1    |    1    |            0           |                   0                   |
+|    0    |    0    |            **1**       |                   **1**               |
+|    0    |    1    |            **0**       |                   **0**               |
+|    1    |    0    |            **0**       |                   **0**               |
+|    1    |    1    |            **0**       |                   **0**               |
 
 ---
 layout: section
@@ -169,14 +194,13 @@ layout: quote
 - Há duas formas de realizar a descrição de uma função
     - Soma de Produtos (SDP)
     - Produto de Somas (PDS)
-- Utilizando-se um dos métodos é possível descrever completamente uma função Booleana
+- Utilizando-se um dos métodos é possível descrever **completamente** uma função Booleana
 
 ---
 
 # Soma de Produtos
-Mintermos
 
-| **$A$** | **$B$** | **$C$** | **mintermo** |
+| $A$ | $B$ | $C$ | mintermo |
 |:-------:|:-------:|:-------:|:------------:|
 |    0    |    0    |    0    |       ?      |
 |    0    |    0    |    1    |       ?      |
@@ -190,9 +214,8 @@ Mintermos
 ---
 
 # Soma de Produtos
-Mintermos
 
-| **$A$** | **$B$** | **$C$** |                     **mintermo**                     |
+| $A$ | $B$ | $C$ |                     mintermo                     |
 |:-------:|:-------:|:-------:|:----------------------------------------------------:|
 |    0    |    0    |    0    | $\overline{A} \cdot \overline{B} \cdot \overline{C}$ |
 |    0    |    0    |    1    |       $\overline{A} \cdot \overline{B} \cdot C$      |
@@ -235,15 +258,15 @@ layout: two-cols-header
 
 ::right::
 
-| **$A$** | **$B$** | **$C$** | **F** |
+| $A$ | $B$ | $C$ | F |
 |:-------:|:-------:|:-------:|:-----:|
 |    0    |    0    |    0    |   0   |
 |    0    |    0    |    1    |   0   |
-|    0    |    1    |    0    |   1   |
-|    0    |    1    |    1    |   1   |
+|    0    |    1    |    0    | **1** |
+|    0    |    1    |    1    | **1** |
 |    1    |    0    |    0    |   0   |
-|    1    |    0    |    1    |   1   |
-|    1    |    1    |    0    |   1   |
+|    1    |    0    |    1    | **1** |
+|    1    |    1    |    0    | **1** |
 |    1    |    1    |    1    |   0   |
 
 ---
@@ -255,9 +278,8 @@ $$F_{min} = \overline{A} \cdot B \cdot \overline{C} + A \cdot \overline{B} \cdot
 ---
 
 # Produto de Somas
-Maxtermos
 
-| **$A$** | **$B$** | **$C$** | **maxtermo** |
+| $A$ | $B$ | $C$ | maxtermo |
 |:-------:|:-------:|:-------:|:------------:|
 |    0    |    0    |    0    |       ?      |
 |    0    |    0    |    1    |       ?      |
@@ -271,9 +293,8 @@ Maxtermos
 ---
 
 # Produto de Somas
-Maxtermos
 
-| **$A$** | **$B$** | **$C$** |                     **maxtermo**                     |
+| $A$ | $B$ | $C$ | maxtermo |
 |:-------:|:-------:|:-------:|:----------------------------------------------------:|
 |    0    |    0    |    0    | $A + B + C$ |
 |    0    |    0    |    1    |       $A + B + \overline{C}$      |
@@ -316,7 +337,7 @@ layout: two-cols-header
 
 ::right::
 
-| **$A$** | **$B$** | **$C$** | **F** |
+| $A$ | $B$ | $C$ | $F$ |
 |:-------:|:-------:|:-------:|:-----:|
 |    0    |    0    |    0    |   0   |
 |    0    |    0    |    1    |   0   |
@@ -372,16 +393,10 @@ Aplique as propriedades da Álgebra de Boole para simplificar as expressões aba
 
 # 2
 
-Aplique as propriedades da Álgebra de Boole para simplificar as expressões $F_{min}$ e $F_{max$}$ encontradas anteriormente e mostrar que elas são equivalentes.
+Aplique as propriedades da Álgebra de Boole para simplificar as expressões $F_{min}$ e $F_{max}$ encontradas anteriormente e mostrar que elas são equivalentes.
 - $F_{min} = \overline{A}B\overline{C} + \overline{A}BC + A\overline{B}C + AB\overline{C}$
 - $F_{max} = (A+B+C) \cdot (A+B+\overline{C}) \cdot (\overline{A}+B+C) \cdot (\overline{A}+\overline{B}+\overline{C})$ 
 
 ---
-layout: image
-image: ./img/layered-steps-down.svg
+src: /src/end.md
 ---
-
-# {{ $slidev.configs.author }}
-jbroberto@ifce.edu.br
-<br><br><br><br><br><br>
-<PoweredBySlidev />
