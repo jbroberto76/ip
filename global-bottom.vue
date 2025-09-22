@@ -1,4 +1,4 @@
-<!-- hide the footer from "cover" layout -->
+<!-- show only "default" and "quote" layout -->
 <template>
   <footer
     v-if="$nav.currentLayout === 'default' || $nav.currentLayout === 'quote'"
