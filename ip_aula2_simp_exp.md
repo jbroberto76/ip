@@ -1,5 +1,6 @@
 ---
 theme: default
+transition: fade
 lineNumbers: true
 colorSchema: dark
 layout: image
@@ -36,7 +37,7 @@ layout: section
 
 ---
 
-# Propriedades da Álgegra de Boole
+# Propriedades da Álgebra de Boole
 OR
 <br><br><br>
 $$
@@ -50,7 +51,7 @@ $$
 
 ---
 
-# Propriedades da Álgegra de Boole
+# Propriedades da Álgebra de Boole
 AND
 <br><br><br>
 $$
@@ -64,7 +65,7 @@ $$
 
 ---
 
-# Propriedades da Álgegra de Boole
+# Propriedades da Álgebra de Boole
 NOT
 <br><br><br>
 
@@ -352,7 +353,9 @@ layout: two-cols-header
 layout: fact
 ---
 
-$$F_{max} = (A+B+C) \cdot (A + B \overline{C}) \cdot (\overline{A} + B + C) \cdot (\overline{A} + \overline{B} + \overline{C})$$
+$$
+F_{max} = (A+B+C) \cdot (A + B + \overline{C}) \cdot (\overline{A} + B + C) \cdot (\overline{A} + \overline{B} + \overline{C})
+$$
 
 ---
 layout: quote
