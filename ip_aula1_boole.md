@@ -3,7 +3,7 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layered-steps-right.svg
+image: /img/layered-steps-right.svg
 title: Álgebra de Boole
 exportFilename: ip_aula1_boole
 author: José Roberto Bezerra
@@ -184,11 +184,11 @@ layout: quote
 
 <br>
 
-| $0 + 0$ |   =  | ? |
+| $0 \cdot 0$ |   =  | ? |
 |:--:|:----:|:---:|
-|  $0+1$  |   =  | ? |
-|  $1+0$  |   =  | ? |
-|  $1+1$  |   =  | ? |
+|  $0 \cdot 1$  |   =  | ? |
+|  $1 \cdot 0$  |   =  | ? |
+|  $1 \cdot 1$  |   =  | ? |
 
 ---
 layout: default
@@ -196,11 +196,11 @@ layout: default
 
 # AND
 
-| $0 + 0$ |   =  | 0 |
+| $0 \cdot 0$ |   =  | 0 |
 |:--:|:----:|:---:|
-|  $0+1$  |   =  | 0 |
-|  $1+0$  |   =  | 0 |
-|  $1+1$  |   =  | 1 |
+|  $0 \cdot 1$  |   =  | 0 |
+|  $1 \cdot 0$  |   =  | 0 |
+|  $1 \cdot 1$  |   =  | 1 |
 
 ---
 
@@ -389,7 +389,7 @@ layout: fact
 # Perguntas
 
 ---
-layout: section
+layout: fact
 ---
 
 # Exercícios
