@@ -1,16 +1,18 @@
 ---
 theme: default
+transition: fade
 lineNumbers: true
 colorSchema: dark
 ayout: image
 image: ./img/layered-steps-right.svg
 title: Portas Lógicas
+description: Introdução a Programação
 exportFilename: ip_aula3_portas
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-Introdução a Programação<br>
+{{ $slidev.configs.description }}
 
 ---
 
@@ -250,15 +252,10 @@ Simplifique a expressão da questão anterior. Qual o circuito lógico que a rep
 # 4
 Use o simulador *Circuit Verse* para comparar os circuitos das questões 2 e 3 e verificar que são realmente equivalentes. Para isso, monte a Tabela Verdade de cada circuito e compare-as. -->
 
-<!-- # Referências
+# Referências
 
---> 
----
-layout: image
-image: ./img/layered-steps-down.svg
----
+- [Simulador Circuit Verse](https://circuitverse.org/simulator)
 
-# {{ $slidev.configs.author }}
-jbroberto@ifce.edu.br
-<br><br><br><br><br><br>
-<PoweredBySlidev />
+---
+src: /src/end.md
+---
