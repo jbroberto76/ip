@@ -3,8 +3,8 @@ theme: default
 transition: fade
 lineNumbers: true
 colorSchema: dark
-ayout: image
-image: ./img/layered-steps-right.svg
+layout: image
+image: /img/layered-steps-right.svg
 title: Portas Lógicas
 description: Introdução a Programação
 exportFilename: ip_aula3_portas
@@ -60,8 +60,11 @@ São representadas de várias formas:
     - Nível lógico 1 (Tensão 5V ou 12V)
 
 ---
+layout: quote
+---
 
-# Portas Lógicas (*Gates*)
+# Portas Lógicas
+*Gates*
 
 > Circuitos eletrônicos que, de alguma maneira (circuito analógicos), realizam as funções booleanas existentes
 
@@ -115,7 +118,7 @@ backgroundSize: contain
 
 # Circuitos Integrados
 
-> Um circuito integrado (CI), também conhecido como chip ou microchip, é um componente eletrônico que contém vários componentes eletrônicos, como transistores, resistores e capacitores, integrados em um único substrato semicondutor, geralmente silício. 
+> Um circuito integrado (CI), também conhecido como chip ou microchip, é um dispositivo que contém vários componentes eletrônicos, como transistores, resistores e capacitores, integrados em um único substrato semicondutor, geralmente silício. 
 
 ---
 layout: image-right
@@ -218,6 +221,10 @@ layout: fact
 # $S = A \cdot B + C \cdot \overline{D}$
 
 ---
+
+# $Z = (A + B) \cdot (A + \overline{B})$
+
+---
 layout: fact
 ---
 
@@ -231,7 +238,7 @@ layout: fact
 
 ---
 layout: image-right
-image: img/gates.png
+image: /img/gates.png
 ---
 
 # 1
@@ -247,10 +254,13 @@ Dada a expressão booleana $Z = ABC + (A\overline{B}) \cdot \overline{(\overline
 # 3
 Simplifique a expressão da questão anterior. Qual o circuito lógico que a representa agora?
 
+---
+
 <!-- ---
 
 # 4
-Use o simulador *Circuit Verse* para comparar os circuitos das questões 2 e 3 e verificar que são realmente equivalentes. Para isso, monte a Tabela Verdade de cada circuito e compare-as. -->
+Use o simulador *Circuit Verse* para comparar os circuitos das questões 2 e 3 e verificar que são realmente equivalentes. Para isso, monte a Tabela Verdade de cada circuito e compare-as. 
+-->
 
 # Referências
 
