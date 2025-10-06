@@ -360,11 +360,11 @@ Alarme automotivo
 > Um carro possui 3 sensores:
 - Nas portas: Quando alguma porta estiver aberta este sensor envia nível lógico alto;
 - Na ignição: Quando a ignição está ligada este sensor envia nível lógico alto;
-- Nos faróis: Quando algum farol está ligado esse sendor enviar 1;
+- Nos faróis: Quando algum farol está ligado esse sensor envia 1;
 
 > Projete um circuito lógico que faça acionar uma luz vermelha no painel do carro sempre que:
 - As portas estiverem abertas com a ignição acionada;
-- Os faróis estiverem acesos com a ignição desligadas.
+- Os faróis estiverem acesos com a ignição desligada.
 
 ---
 
@@ -386,7 +386,9 @@ Alarme automotivo
 Alarme automotivo
 
 - 50% da nota da N1
+- Atividade individual
 - Prazo de entrega: **19/10/2025**
+- Entrega apenas via <logos-google /> Sala de Aula 
 
 
 ---
