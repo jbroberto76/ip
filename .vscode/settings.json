@@ -1,7 +1,8 @@
 {
     "slidev.include": [
         "**/slides.md",
-        "ip_aula3_portas.md"
+        "ip_aula3_portas.md",
+        "ip_aula4_exerc.md"
     ],
     "slidev.force-enabled": true
 }

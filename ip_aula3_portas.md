@@ -256,11 +256,12 @@ Simplifique a expressão da questão anterior. Qual o circuito lógico que a rep
 
 ---
 
-<!-- ---
+<!--
 
 # 4
 Use o simulador *Circuit Verse* para comparar os circuitos das questões 2 e 3 e verificar que são realmente equivalentes. Para isso, monte a Tabela Verdade de cada circuito e compare-as. 
 -->
+
 
 # Referências
 

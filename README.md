@@ -26,7 +26,7 @@ Agenda
     - Soma de Produtos
     - Produto de Somas
 
-### Aula 3
+### Aula 3 - Portas Lógicas
 
 Objetivos de Aprendizagem
 - Conhecer circuitos que representam funções booleanas elementares
@@ -36,7 +36,15 @@ Agenda
 - Portas lógicas
 - Conversão de expressões lógicas em circuitos digitais
 
-## Aula 4
+### Aula 4 - Exercícios
+
+Objetivos de Aprendizagem
+- Resolução de exercícios similares a primeira avaliação
+
+Agenda
+- Exercício 1
+- Exercício 2
+- Primeira avaliação
 
 ## Aula 5
 
