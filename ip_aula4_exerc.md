@@ -16,7 +16,7 @@ author: José Roberto Bezerra
 
 ---
 
-# Objetivos de Aprendizagem
+# Objetivo de Aprendizagem
 - Resolução de exercícios similares a primeira avaliação
 
 ---
