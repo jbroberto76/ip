@@ -46,7 +46,7 @@ Agenda
 - Exercício 2
 - Primeira avaliação
 
-## Aula 5
+### Aula 5
 
 Objetivo de Aprendizagem
 - Compreender conceitos elementares da linguagem Python
@@ -57,7 +57,7 @@ Agenda
 - Variáveis
 - Entrada / Saída
 
-## Aula 6
+### Aula 6
 
 Objetivo de Aprendizagem
 - Conhecer as estruturas de decisão em Python

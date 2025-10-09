@@ -1,9 +1,5 @@
 .slidev-layout {
-    p {
-      font-size: 24px
-    }
-  
-    ul {
+    p, ul, ol {
       font-size: 24px
     }
 
