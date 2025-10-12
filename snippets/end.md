@@ -1,7 +1,7 @@
 ---
 layout: image
 transition: fade
-image: /img/layered-steps-down.svg
+image: /layered-steps-down.svg
 ---
 
 # {{ $slidev.configs.author }}
