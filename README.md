@@ -46,7 +46,21 @@ Agenda
 - Exercício 2
 - Primeira avaliação
 
-## Aula 5
+### Aula 5 - CODE.ORG
+
+Objetivos de Aprendizagem
+- Iniciar as atividades em CODE.ORG
+
+Agenda
+- Conceitos de programação
+    - Comandos
+    - Depuração (*debugging*)
+    - Laços (*Loops*)
+    - `if/else`
+    - Funções
+    - Variáveis
+
+### Aula 6 - Python
 
 Objetivo de Aprendizagem
 - Compreender conceitos elementares da linguagem Python

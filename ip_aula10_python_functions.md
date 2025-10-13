@@ -3,18 +3,19 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layered-steps-right.svg
+image: /layered-steps-right.svg
 title: Funções
-exportFilename: ip_aula9_python_functions
+description: Introdução a Programação
+exportFilename: ip_aula10_python_functions
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-Introdução a Programação
+{{ $slidev.configs.description }}
 
 ---
 
-# Objetivo de Aprendizagen
+# Objetivos de Aprendizagen
 - Construir funções personalizadas
 - Utilizar módulos
 
@@ -335,11 +336,5 @@ Crie um *script* em Python que utiliza a função criada no exercício anterior 
 - [Python Modules](https://www.w3schools.com/python/python_modules.asp)
 
 ---
-layout: image
-image: ./img/layered-steps-down.svg
+src: /snippets/end.md
 ---
-
-# {{ $slidev.configs.author }}
-jbroberto@ifce.edu.br
-<br><br><br><br><br><br>
-<PoweredBySlidev />

@@ -3,14 +3,15 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layered-steps-right.svg
+image: /layered-steps-right.svg
 title: Operadores
-exportFilename: ip_aula7_python_operadores
+description: Introdução a Programação
+exportFilename: ip_aula8_python_operadores
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-Introdução a Programação
+{{ $slidev.configs.description }}
 
 ---
 
@@ -454,11 +455,5 @@ else:
 - [Python Math](https://docs.python.org/3/library/math.html)
 
 ---
-layout: image
-image: ./img/layered-steps-down.svg
+src: /snippets/end.md
 ---
-
-# {{ $slidev.configs.author }}
-jbroberto@ifce.edu.br
-<br><br><br><br><br><br>
-<PoweredBySlidev />

@@ -3,14 +3,15 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layered-steps-right.svg
+image: /layered-steps-right.svg
 title: Estruturas de Decisão
-exportFilename: ip_aula6_python_decisao
+description: Introdução a Programação
+exportFilename: ip_aula7_python_decisao
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-Introdução a Programação
+{{ $slidev.configs.description }}
 
 ---
 
@@ -300,11 +301,5 @@ else:
 - [https://www.geeksforgeeks.org/conditional-statements-in-python/](https://www.geeksforgeeks.org/conditional-statements-in-python/)
 
 ---
-layout: image
-image: ./img/layered-steps-down.svg
+src: /snippets/end.md
 ---
-
-# Prof. {{ $slidev.configs.author }}
-jbroberto@ifce.edu.br
-<br><br><br><br><br><br>
-<PoweredBySlidev />

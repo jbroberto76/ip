@@ -3,14 +3,15 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layered-steps-right.svg
-title: Estruturas de Repetição
-exportFilename: ip_aula8_python_loops
+image: /layered-steps-right.svg
+title: Introdução a Programação
+description: Introdução a Programação
+exportFilename: ip_aula9_python_loops
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-Introdução a Programação
+{{ $slidev.configs.description }}
 
 ---
 
@@ -379,11 +380,5 @@ print(numero_aleatorio)
 - [Python Academy](https://pythonacademy.com.br/blog/estruturas-de-repeticao)
 
 ---
-layout: image
-image: ./img/layered-steps-down.svg
+src: /snippets/end.md
 ---
-
-# {{ $slidev.configs.author }}
-jbroberto@ifce.edu.br
-<br><br><br><br><br><br>
-<PoweredBySlidev />

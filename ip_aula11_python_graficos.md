@@ -3,14 +3,15 @@ theme: default
 lineNumbers: true
 colorSchema: dark
 layout: image
-image: ./img/layered-steps-right.svg
+image: /layered-steps-right.svg
 title: Visualização de Dados
-exportFilename: ip_aula10_python_graficos
+description: Introdução a Programação
+exportFilename: ip_aula11_python_graficos
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-Introdução a Programação
+{{ $slidev.configs.description }}
 
 ---
 
@@ -229,5 +230,5 @@ Criar um *script* em Python que plota equações do segundo grau personalizadas 
 - [Guia para iniciantes em visualização de dados](https://hub.asimov.academy/blog/matplotlib-visualizacao-de-dados/)
 
 ---
-src: ./src/end.md
+src: /snippets/end.md
 ---
