@@ -71,7 +71,7 @@ Agenda
 - Variáveis
 - Entrada / Saída
 
-## Aula 6
+### Aula 6
 
 Objetivo de Aprendizagem
 - Conhecer as estruturas de decisão em Python
