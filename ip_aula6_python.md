@@ -5,15 +5,13 @@ lineNumbers: true
 colorSchema: dark
 layout: image
 image: /layered-steps-right.svg
-image: /layered-steps-right.svg
 title: Python
 description: Introdução a Programação
-exportFilename: ip_aula5_python
+exportFilename: ip_aula6_python
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
-{{ $slidev.configs.description }}
 {{ $slidev.configs.description }}
 <logos-python />
 ---
@@ -311,6 +309,4 @@ layout: fact
 
 ---
 src: /snippets/end.md
-src: /snippets/end.md
 ---
-

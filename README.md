@@ -71,7 +71,7 @@ Agenda
 - Variáveis
 - Entrada / Saída
 
-### Aula 6
+### Aula 7
 
 Objetivo de Aprendizagem
 - Conhecer as estruturas de decisão em Python
@@ -82,7 +82,7 @@ Agenda
 - `if-else`
 - `if-else-elif`
 
-## Aula 7
+## Aula 8
 
 Objetivo de Aprendizagen
 - Conhecer operadores de uso geral do Python
@@ -94,7 +94,7 @@ Agenda
 - Formatação de números
 - Funções de texto padrão
 
-## Aula 8
+## Aula 9
 
 Objetivo de Aprendizagen
 - Conhecer e aplicar estruturas de repetição
@@ -104,7 +104,7 @@ Agenda
 - `for`
 - `while`
 
-## Aula 9
+## Aula 10
 
 Objetivo de Aprendizagen
 - Construir funções personalizadas
@@ -114,7 +114,7 @@ Agenda
 - Funções personalizadas
 - Módulos 
 
-## Aula 10
+## Aula 11
 Objetivo de Aprendizagen
 - Aplicar os módulos `matplotlib` e `seaborn` para visualização de dados
 
