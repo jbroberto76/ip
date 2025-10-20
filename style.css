@@ -6,6 +6,12 @@
     strong {
       color: #3ab9d5;
     }
+    
+    blockquote {
+      border-left: 4px solid #3ab9d5;
+      padding-left: 1em;
+      margin: 3em 0em;
+    }
   }
 
   pre, code {

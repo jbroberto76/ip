@@ -1,15 +1,19 @@
 ---
 theme: default
+transition: fade
 lineNumbers: true
 colorSchema: dark
 layout: image
 image: /layered-steps-right.svg
+image: /layered-steps-right.svg
 title: Python
-exportFilename: ip_aula6_python
+description: Introdução a Programação
+exportFilename: ip_aula5_python
 author: José Roberto Bezerra
 ---
 
 # {{ $slidev.configs.title }}
+{{ $slidev.configs.description }}
 {{ $slidev.configs.description }}
 <logos-python />
 ---
@@ -37,7 +41,7 @@ layout: quote
 
 # O que é Python?
 
-> **Python** é uma linguagem de programação de alto nível, ou seja, com sintaxe mais simplificada e próxima da linguagem humana, utilizada nas mais diversas aplicações, como desktop, web, servidores e ciência de dados.
+> **Python** é uma linguagem de programação de alto nível, ou seja, com sintaxe mais simplificada e próxima da linguagem humana, utilizada nas mais diversas aplicações, como *desktop*, *web*, servidores e ciência de dados.
 
 ---
 layout: quote
@@ -45,7 +49,7 @@ layout: quote
 
 # O que é Python?
 
-> O Python foi lançado no início da década de 90 pelo programador e matemático holandês Guido Van Rossum. A linguagem foi projetada para dar ênfase no trabalho do desenvolvedor, facilitando a escrita de um código limpo, simples e legível, tanto em aplicações menores quanto em programas mais complexos.
+> Python foi lançado no início da década de 90 pelo programador e matemático holandês *Guido Van Rossum*. A linguagem foi projetada para dar ênfase no trabalho do desenvolvedor, facilitando a escrita de um código limpo, simples e legível, tanto em aplicações menores quanto em programas mais complexos.
 
 ---
 
@@ -55,7 +59,7 @@ layout: quote
 - Fácil de aprender
 - Código aberto
 - Documentação disponível
-- Largamente adotada [Stack Overflow Survey](https://survey.stackoverflow.co/2024/technology#most-popular-technologies-language-prof)
+- Largamente adotada [Stack Overflow Survey](https://survey.stackoverflow.co/2025/technology#most-popular-technologies-language-prof)
 
 ---
 layout: section
@@ -65,7 +69,10 @@ layout: section
 
 ---
 
-# Elementos de um Sistema Computacional
+# Sistema Computacional
+Elementos
+
+<div class="place-content-center">
 
 ```mermaid {scale: 1.5}
 kanban
@@ -75,6 +82,7 @@ kanban
     task3[Entrada]
     task4[Saída]
 ```
+</div>
 
 ---
 
@@ -92,10 +100,17 @@ layout: section
 ---
 
 # Variáveis
+Conceito
 
 - Uma variável é essencialmente um nome (etiqueta ou _label_) que é atribuído a um determinado valor
 - Esse valor atribuído pode **mudar** durante a execução do programa
 - Para otimizar o uso da memória as linguagens de programação classificam as variáveis em diferentes **tipos**
+
+---
+
+# Variáveis
+Tipos
+
 - Os tipos essenciais em qualquer linguagem são:
   - **string** (texto)
   - **integer** (números inteiros)
@@ -104,11 +119,13 @@ layout: section
 
 ---
 
-# Regras para os nomes de variáveis
+# Variáveis
+Regras para os nomes
 
 - Apenas podem conter letras, números e (\_)
 - Não podem começar com número
-- São *case-sensitive*, ou seja `myVar` é diferente de `MyVar` que é diferente de `myvar`
+- São *case-sensitive* 
+  - `myVar` $\neq$ `MyVar` $\neq$ `myvar`
 - Comandos da linguagem não podem ser usados como nomes de variáveis, por exemplo `print`
 
 ---
@@ -116,21 +133,11 @@ layout: section
 # Exemplos
 Nomes válidos
 
-```python {*}{class:'!children:text-2xl'}
-
-```python {*}{class:'!children:text-xl'}
+```python {*}{class: '!children:text-xl'}
 age = 21
 _colour = "lilac"
 total_score = 90
 ```
-
-<!-- <br>
-```python {*}{class:'!children:text-2lg'}
-age = 21
-_colour = "lilac"
-total_score = 90
-```
--->
 
 ---
 
@@ -138,44 +145,43 @@ total_score = 90
 Nomes inválidos
 
 
-```python{*}{class:'!children:text-2xl'}
-```python {*}{class:'!children:text-xl'}
-1name = "Error"
-class = 10
-user-name = "Doe"
+```python{*}{class:'!children:text-xl'}
+1name = "Error"   # name1
+class = 10        # class_
+user-name = "Doe" # user_name
 ```
 
 ---
 layout: two-cols-header
 ---
 
-# Atribuição de valores
+# Variáveis
+Atribuição de valores
 
 ::left::
 
-- Para atribuir um valor a uma variável basta utilizar o operador `=`
+- Para atribuir valor a uma variável basta utilizar o operador `=`
 - Exemplos:
 
 ::right::
 
-```python{*}{class:'!children:text-2xl'}
-```python {*}{class:'!children:text-xl'}
+```python{*}{class: '!children:text-xl'}
 x = 5
 y = 3.14
 z = "Hi"
 ```
 
 ---
-layout: statement
+layout: quote
 ---
 
-# Compreender as operações de Entrada/Saída (E/S) é fundamental para o aprendizado de linguagens de programação.
+> Compreender as operações de Entrada/Saída (E/S) é fundamental para o aprendizado de linguagens de programação.
 
 ---
 layout: two-cols-header
 ---
 
-# Saída de dados em Python
+# Saída de dados
 
 ::left::
 
@@ -185,48 +191,31 @@ layout: two-cols-header
 
 ::right::
 
-```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 print("Hello, world!")
 ```
 
 ---
-layout: two-cols-header
----
 
-# Saída de dados em Python
+# Saída de dados
+Exemplo 1
 
-::left::
+- O exemplo mostrado cria duas varáveis `name` e `age` e exibe os valores com etiquetas
 
-- O exemplo ao lado cria duas varáveis `name` e `age` e exibe os valores como etiquetas
-
-::right::
-
-# Exemplo 1
-
-```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 name = "Alice"
 age = 30
-print("Name:", name, "Age:", age)
+print("Nome:", name, "Idade:", age)
 ```
 
 ---
-layout: two-cols-header
----
 
-# Saída de dados em Python
-
-::left::
+# Saída de dados
+Exemplo 2
 
 - É possível fazer atribuições múltiplas
 - É possível exibir múltiplas variáveis em um único `print`
 
-::right::
-
-# Exemplo 2
-
-```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 x, y, z = 1, 2.5, "Python"
 print(x, y, z)
@@ -246,41 +235,28 @@ kanban
 ```
 
 ---
-layout: two-cols-header
----
 
-# Entrada de Dados em Python
-
-::left::
+# Entrada de Dados
+`input()`
 
 - Desenvolvedores necessitam interagir com os usuários tanto para devolver resultados quanto para **coletar informações**
 - Existem diversas formas de coletar informações do usuário: mouse, câmeras, sensores, etc
 - A forma mais comum é usando o teclado
-- Em Python o principal comando para ler informação do teclado é ```input```
+- Em Python o principal comando para ler informação do teclado é `input`
 
-::right::
-
-```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 val = input("Entre um valor: ")
 print(val)
 ```
 
 ---
-layout: two-cols-header
----
 
-# Entrada de Dados em Python
-
-::left::
+# Entrada de Dados
 
 - É exibida uma mensagem ao usuário, conforme a `string`
 - Quando o comando `input` é executado o programa é **bloqueado**  (pausado) até que o usuário entre com a informação
 - A informação repassada pelo usuário é **sempre** convertida para `string`
 
-::right::
-
-```python{*}{class:'!children:text-2xl'} 
 ```python {*}{class:'!children:text-xl'}
 name = input('Qual seu nome?\n')
 print(name)
@@ -288,9 +264,9 @@ print(name)
 
 ---
 
-# Exemplo
+# Exemplo 3
+`type()`
 
-```python{*}{class:'!children:text-2xl'}
 ```python {*}{class:'!children:text-xl'}
 num = input ("Entre com um número :")
 print(num)
@@ -301,13 +277,13 @@ print ("Tipo do nome", type(name1))
 ```
 
 ---
+layout: statement
+---
+
+# Qual a diferença entre atribuir valor a uma variável e realizar entrada de dados via `input`?
+
+---
 layout: fact
----
-
-Qual a diferença entre atribuir valor a uma variável e realizar entrada de dados via `input`?
-
----
-layout: section
 ---
 
 # Exercícios
@@ -335,4 +311,6 @@ layout: section
 
 ---
 src: /snippets/end.md
+src: /snippets/end.md
 ---
+
