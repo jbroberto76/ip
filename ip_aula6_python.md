@@ -11,9 +11,9 @@ exportFilename: ip_aula6_python
 author: José Roberto Bezerra
 ---
 
-# {{ $slidev.configs.title }}
+# {{ $slidev.configs.title }} <logos-python />
 {{ $slidev.configs.description }}
-<logos-python />
+
 ---
 
 # Objetivo de Aprendizagem
@@ -53,10 +53,11 @@ layout: quote
 
 # Por que Python?
 
+- Linguagem de uso geral
 - Versátil
 - Fácil de aprender
 - Código aberto
-- Documentação disponível
+- Documentação disponível [Python.org](https://docs.python.org/3/)
 - Largamente adotada [Stack Overflow Survey](https://survey.stackoverflow.co/2025/technology#most-popular-technologies-language-prof)
 
 ---
@@ -110,10 +111,11 @@ Conceito
 Tipos
 
 - Os tipos essenciais em qualquer linguagem são:
-  - **string** (texto)
-  - **integer** (números inteiros)
-  - **floating point numbers** (números reais)
+  - `string` (texto)
+  - `integer` (números inteiros)
+  - `floating point` (números reais)
 - Existem outros tipos de variáveis
+  - Listas, dicionários, conjuntos, etc
 
 ---
 
