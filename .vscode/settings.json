@@ -3,7 +3,8 @@
         "**/slides.md",
         "ip_aula3_portas.md",
         "ip_aula4_exerc.md",
-        "ip_aula5_python.md"
+        "ip_aula5_python.md",
+        "ip_aula7_python_decisao.md"
     ],
     "slidev.force-enabled": true
 }

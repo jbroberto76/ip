@@ -1,5 +1,6 @@
 ---
 theme: default
+transition: fade
 lineNumbers: true
 colorSchema: dark
 layout: image
@@ -72,48 +73,34 @@ print(type(d))
 ```
 
 ---
-layout: two-cols-header
----
 
 # Exemplo 2
 
-::left::
 ```python {*}{class:'!children:text-xl'}
 # O que acontece ao executar o
 # código abaixo?
 idade = input('Qual sua idade?')
-idade++
+idade += 1
 print('No próximo ano minha idade será', idade)
 ```
 
-::right::
-- O que acontece ao executar o código?
+- O que acontece ao executar o código acima?
 - Qual erro apresentado?
 - Como corrigir?
 
----
-layout: two-cols-header
 ---
 
 # Exemplo 2
 Corrigido
 
-::left::
-
 ```python {*}{class:'!children:text-xl'}
-# O que acontece ao executar o
-# código abaixo?
-
-# a funcao int() força que idade 
-# seja do tipo int
+# a funcao int() força que idade seja do tipo int
 idade = int(input('Qual sua idade?'))
 # variável idade é incrementada
-idade++
+idade += 1
 # a mensagem é exibida
 print('No próximo ano minha idade será', idade)
 ```
-
-::right::
 
 - Na linha 6 é realizado o *casting*
 - Agora pode-se realizar a operação de incremento (linha 8)
@@ -155,23 +142,21 @@ layout: quote
 ---
 
 # `if-else`
-> A declaração `if-else` executa um bloco de código caso a condição declarada seja atendida (`True`), caso contrário outro bloco (`else`) é executado. **NUNCA** ambos os blocos serão executados. **SEMPRE** haverá pelo menos um dos blocos será executado.
+> A declaração `if-else` executa um bloco de código caso a condição declarada seja atendida (`True`), caso contrário outro bloco (`else`) é executado. **NUNCA** ambos os blocos serão executados. **SEMPRE**, pelo menos um dos blocos será executado.
 
 ---
 
 # Exemplo 4
 
 ```python {*}{class:'!children:text-xl'}
-age = 10
+idade = 10
 
-if age <= 12:
+if idade <= 12:
     print("Viajante gratuito.")
 else:
     print("Viajante pagante.")
 ```
 
----
-layout: default
 ---
 
 # Exemplo 5
@@ -238,16 +223,9 @@ layout: section
 # Exercícios
 
 ---
-layout: statement
----
 
 # 1
 Modificar a condição do `if-else` para que o código dentro do `else` seja executado. A saída do *script* deve ser '2'.
-
----
-
-# 1 (cont.)
-
 
 ```python {*}{class:'!children:text-2xl'}
 option = 2
@@ -260,22 +238,20 @@ else:
 ```
  
 ---
-layout: statement
----
 
 # 2
 Criar um *script* em Python que recebe dois números do usuário e a operação aritmética desejada (soma, subtração, multiplicação e divisão). Em seguida a operação é realizada com os números e o resultado exibido ao usuário.
 
 ---
-layout: statement
----
 
 # 3
-Crie um programa que simule um sistema de login simples. O programa deve pedir ao usuário um nome de usuário e uma senha e checar se:
+Crie um programa que simule um sistema de *login* simples. O programa deve pedir ao usuário um nome de usuário e uma senha e checar se:
 - O nome de usuário tem pelo menos 3 caracteres.
 - A senha tem exatamente 6 dígitos (e é numérica).
 
 Se tudo estiver correto, exibir: "Login criado com sucesso!", Caso contrário, informar qual regra não foi atendida (ex: "Senha deve ter 6 dígitos numéricos!").
+
+> Sugestão: pesquise sobre as funções `isgigit()` e `len()`
 
 <!-- ```python
 # Solicita nome de usuário e senha
@@ -297,8 +273,9 @@ else:
 ---
 
 # Referências
-- [https://www.geeksforgeeks.org/type-casting-in-python/](https://www.geeksforgeeks.org/type-casting-in-python/)
-- [https://www.geeksforgeeks.org/conditional-statements-in-python/](https://www.geeksforgeeks.org/conditional-statements-in-python/)
+- [Por dentro do IF, ELSE e ELIF](https://www.rocketseat.com.br/blog/artigos/post/python-if-else-elif)
+- [Type Casting in Python](https://www.geeksforgeeks.org/type-casting-in-python/)
+- [Conditional Statements in Python](https://www.geeksforgeeks.org/conditional-statements-in-python/)
 
 ---
 src: /snippets/end.md

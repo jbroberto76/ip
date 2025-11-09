@@ -71,7 +71,7 @@ Agenda
 - Variáveis
 - Entrada / Saída
 
-### Aula 7
+### Aula 7 - Estruturas de Decisão
 
 Objetivo de Aprendizagem
 - Conhecer as estruturas de decisão em Python
@@ -82,7 +82,7 @@ Agenda
 - `if-else`
 - `if-else-elif`
 
-## Aula 8
+### Aula 8
 
 Objetivo de Aprendizagen
 - Conhecer operadores de uso geral do Python
