@@ -306,7 +306,8 @@ else:
     senha= input("Digite a senha (apenas números): ")
     if not senha.isdigit():
         print("Senha inválida. Use apenas números (sem letras ou símbolos).")
-print("Usuário e senha válidos!")
+    else:
+        print("Usuário e senha válidos!")
 ```
 
 ---

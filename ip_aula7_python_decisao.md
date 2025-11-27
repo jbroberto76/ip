@@ -81,7 +81,7 @@ print(type(d))
 # código abaixo?
 idade = input('Qual sua idade?')
 idade += 1
-print('No próximo ano minha idade será', idade)
+print('No próximo ano sua idade será', idade)
 ```
 
 - O que acontece ao executar o código acima?
@@ -117,6 +117,7 @@ layout: quote
 ---
 
 # Declaração Condicional
+
 > Declarações condicionais em Python são utilizadas para executar certas partes do códigos apenas se determinadas condições forem atendidas. Estas declarações controlam o fluxo do código.
 
 ---
@@ -135,6 +136,9 @@ idade = 20
 
 if idade >= 16:
     print("Cidadão pode votar.")
+    print("Tem direitos políticos")
+    print("mais um comando")
+print("Cidadão não tem a idade mínima")
 ```
 
 ---
@@ -245,13 +249,12 @@ Criar um *script* em Python que recebe dois números do usuário e a operação 
 ---
 
 # 3
-Crie um programa que simule um sistema de *login* simples. O programa deve pedir ao usuário um nome de usuário e uma senha e checar se:
+Crie um programa que simule um sistema de *login* simples para criação de um novo usuário. O programa deve pedir ao usuário um *login* e uma senha e em seguida checar se:
 - O nome de usuário tem pelo menos 3 caracteres.
 - A senha tem exatamente 6 dígitos (e é numérica).
-
 Se tudo estiver correto, exibir: "Login criado com sucesso!", Caso contrário, informar qual regra não foi atendida (ex: "Senha deve ter 6 dígitos numéricos!").
 
-> Sugestão: pesquise sobre as funções `isgigit()` e `len()`
+> Sugestão: pesquise sobre as funções `isdigit()` e `len()`
 
 <!-- ```python
 # Solicita nome de usuário e senha
