@@ -1,5 +1,6 @@
 ---
 theme: default
+transition: fade
 lineNumbers: true
 colorSchema: dark
 layout: image
@@ -75,8 +76,6 @@ print(math.pow(2,3))
 print(math.sqrt(2))
 ```
 
----
-layout: center
 ---
 
 # Lista completa do Módulo Math
@@ -159,7 +158,6 @@ h = a ** b # exponenciação de dois números
 |     >=     	| Maior ou igual 	| Verifica se um valor é maior ou igual ao outro          	|
 |      <     	|    Menor que   	| Verifica se um valor é menor que outro                  	|
 |     <=     	| Menor ou igual 	| Verifica se um valor é menor ou igual ao outro          	|
-|      **    	| Exponenciação  	| Retorna o resultado da elevação da potência pelo outro. 	|
 
 ---
 
@@ -332,12 +330,12 @@ x = len(msg)
 
 # `len()`
 
-- Apenas faz sentido aplicar a função para tipos de dados iteráveis
+- Apenas faz sentido aplicar a função para tipos de dados iteráveis (*iterables*)
     - Listas
     - Dicionários
     - Conjuntos
     - Strings
-- Para tipos de dados que armazenam apenas um item `len()` apresenta erro
+- Para tipos de dados que armazenam apenas um item, `len()` apresenta erro
 
 ---
 
@@ -371,7 +369,7 @@ layout: fact
 
 <!-- > Crie um *script* em Python que informa ao usuário a quantidade de vogais que existe em uma mensagem passada pelo usuário. -->
 
-> Crie um *script* em Python uma Calculadora Geométrica para realizar cálculos de área e perímetro de um círculo ou retângulo, segundo opção do usuário. Caso escolha o círculo o usuário deve informar o raio, mas caso escolha o retângulo deve informar a base e altura do mesmo.
+> Crie o *script* em Python para Calculadora Geométrica. O *script* deve realizar cálculos de área e perímetro de um círculo ou retângulo, segundo opção do usuário. Caso escolha o círculo o usuário deve informar o raio, mas caso escolha o retângulo deve informar a base e altura do mesmo.
 
 <!-- 
 ```python
@@ -409,7 +407,6 @@ else:
 ---
 
 # 2
-
 > Crie um *script* em Python que realiza a criação de usuário para um sistema de banco de dados. Tanto o login quanto a senha possuem regras específicas que devem ser atendidas. O login do usuário deve possuir no mínimo 3 caracteres e no máximo 8, deve conter apenas caracteres do alfabeto e não possuir espaços em branco nem no início, nem no final. Já a senha deve ter pelo menos 6 caracteres e possuir caracteres do alfabeto ou numéricos. Mensagens de sucesso e erro devem ser exibidas ao usuário.
 
 <!-- 
