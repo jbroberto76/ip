@@ -4,7 +4,7 @@ lineNumbers: true
 colorSchema: dark
 layout: image
 image: /layered-steps-right.svg
-title: Introdução a Programação
+title: Estruturas de Repetição
 description: Introdução a Programação
 exportFilename: ip_aula9_python_loops
 author: José Roberto Bezerra
@@ -44,7 +44,7 @@ layout: quote
 # Listas
 Exemplos
 
-- São definidas utilizando-se colchetes `[ ]` com elementos separados por vírgula
+- São definidas utilizando-se colchetes `[ ]` com elementos (itens) separados por vírgula
 
 ```python{*}{class:'!children:text-2xl'}
 # exemplos de listas
@@ -59,17 +59,18 @@ info = ['Ricardo Lima', 37, 127.2]
 # Listas 
 Tipo de dado
 
-```python{*}{class:'!children:text-2xl'}
-l = []
-type(l)
+```python{*}{class:'!children:text-2xl', lines: false}
+>>> l = []
+>>> type(l)
+<class 'list'>
 ```
 
 ---
 
-# Acessando itens
+# Acessando Itens
 Indexação
 
-- Cada item possui um índice para acesso individual
+> Cada item possui um índice para acesso individual
 
 ```python{*}{class:'!children:text-2xl'}
 frutas = ['maçã', 'banana', 'limão', 'laranja']
@@ -80,13 +81,17 @@ print(f'Terceira fruta: {frutas[2]}')
 
 ---
 
-# Acessando itens
+# Acessando Itens
 Índices negativos
+
+```python{*}{class:'!children:text-2xl'}
+frutas = ['maçã', 'banana', 'limão', 'laranja']
+```
 
 | **Índice**  |  -4  |   -3   |   -2  |    -1   |
 |-------------|:----:|:------:|:-----:|:-------:|
 | **Valores** | maçã | banana | limão | laranja |
-<br><br>
+
 ```python{*}{class:'!children:text-2xl'}
 frutas = ['maçã', 'banana', 'limão', 'laranja']
 print(f'Última fruta: {frutas[-1]}')
@@ -157,14 +162,21 @@ layout: quote
 
 - Permite percorrer itens de uma lista ou qualquer outro tipo iterável (*iterable*)
 
-```python{*|hide}{class:'!children:text-2xl'}
+```python{*}{class:'!children:text-2xl'}
 frutas = ['maçã', 'banana', 'limão', 'laranja', 'abacaxi']
 for f in frutas:
     print(f)
 print('Estas são as frutas disponíveis')
 ```
-<br><br>
-```python{hide|*}{class:'!children:text-2xl'}
+
+---
+
+# `for`
+*Loops* ou laços
+
+- Permite percorrer itens de uma lista ou qualquer outro tipo iterável (*iterable*)
+
+```python{*}{class:'!children:text-2xl'}
 texto = 'algum conteúdo'
 for c in texto:
     print(c)
@@ -273,8 +285,8 @@ while i < 6:
 
 ---
 
-# `while`
-Exemplo 1 utilizando `while`
+# Utilizando `while`
+Exemplo 7
 
 ```python{*}{class:'!children:text-2xl'}
 frutas = ['maçã', 'banana', 'limão', 'laranja', 'abacaxi']
@@ -288,7 +300,7 @@ print(f'Estas são as {cont} frutas em ordem')
 
 ---
 
-# Exemplo 
+# Exemplo 8
 Somar números até o usuário digitar 0
 
 ```python{*}{class:'!children:text-2xl'}
@@ -313,7 +325,7 @@ print("A soma dos números digitados é:", soma)
 ---
 
 # Laços infinitos
-Exemplo 7 (controle de opções do usuário e saída de um programa)
+Exemplo 9 (controle de opções do usuário e saída de um programa)
 
 ```python{*}{class:'!children:text-xl'}
 while True:
@@ -354,19 +366,20 @@ layout: section
 ---
 
 # 1
-Criar um *script* em Python que recebe um texto do usuário e conta a quantidade de palavras desse texto.
+
+> Criar um *script* em Python que recebe um texto do usuário e conta a quantidade de palavras desse texto.
 
 ---
 
 # 2
-Modifique o *script* do exercício anterior para que seja feita a contagem das vogais do texto passado pelo usuário.
+> Modifique o *script* do exercício anterior para que seja feita a contagem das vogais do texto passado pelo usuário.
 
 ---
 
 # 3
-Escrever o jogo **Adivinhe o Número**. Um número aleatório entre 0 e 10 é iniciado em uma variável. Em seguida o usuário deve tentar adivinhar esse número através de uma quantidade ilimitada de tentativas. **Sugestão**: utilize a função `randint()`, conforme mostrado no exemplo para gerar o número aleatório (É necessário adicionar o módulo `random`).
+> Escrever o jogo **Adivinhe o Número**. Um número aleatório entre 0 e 10 é iniciado em uma variável. Em seguida o usuário deve tentar adivinhar esse número através de uma quantidade ilimitada de tentativas. **Sugestão**: utilize a função `randint()`, conforme mostrado no exemplo para gerar o número aleatório (É necessário adicionar o módulo `random`).
 
-```python{*}{class:'!children:text-xl'}
+```python{*}{class:'!children:text-2xl'}
 from random import randint
 # como usar o randint?
 numero_aleatorio = randint(0, 10)
