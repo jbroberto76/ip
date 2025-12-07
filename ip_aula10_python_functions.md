@@ -119,7 +119,7 @@ print(f"Soma vale: {add(7,6,3)}")
 def area_ret(base, altura):
     return base * altura
 
-print("=== Área do Retângulo ===")
+print("/|\ Área do Retângulo /|\ ")
 b = int(input("Entre com a base do retângulo:"))
 h = int(input("Entre com a altura do retângulo:"))
 print(f"A área do retângulo vale {area_ret(b, h)}")
@@ -174,7 +174,7 @@ show_user_info(user='jlennon@gmail.com', age=21, city='London')
 
 # Valor padrão
 
-```python{*}{class:'!children:text-xl'}
+```python{*}{class:'!children:text-2xl'}
 def show_user_info(country='Brazil', **data):
     print("Origem: ", country)
     for chave, valor in data.items():
@@ -233,7 +233,7 @@ def area_circ(raio):
 
 ```python{*}{class:'!children:text-xl'}
 import geocalc
-print("=== Calculadora de Áreas Online ===")
+print("/|\ Calculadora de Áreas Online /|\ ")
 opc = input("Digite 1 para retângulo ou 2 para círculo:")
 if opc == '1':
     b = int(input("Base:"))
@@ -265,7 +265,7 @@ sys.path.insert(0, '/content/gdrive/MyDrive/Colab Notebooks/IP')
 
 ```python{1|7,10}{class:'!children:text-xl'}
 import geocalc as gc
-print("=== Calculadora de Áreas Online ===")
+print("/|\ Calculadora de Áreas Online /|\ ")
 opc = input("Digite 1 para retângulo ou 2 para círculo:")
 if opc == '1':
     b = int(input("Base:"))
@@ -313,6 +313,7 @@ Crie uma função em Python que calcula o delta ($\Delta = b^2 - 4ac$) de uma eq
 # 2
 
 Crie um *script* em Python que utiliza a função criada no exercício anterior para calcular as raízes de uma equação do segundo grau.
+
 ---
 
 # Referências
