@@ -42,7 +42,7 @@ layout: quote
 # Criando funções
 `def`
 
-- Para declarar uma função utiliza-se `def` e identação
+- Para declarar uma função utiliza-se `def` e indentação
 - `def` também é uma palavra reservada
 
 ```python{*}{class:'!children:text-2xl'}
@@ -69,7 +69,7 @@ my_function()
 ou Parâmetros
 
 - Informação é passada às funções através de argumentos ou parâmetros
-- Argumentos sequenciais (ordem importa)
+- Argumentos são sequenciais, ou seja, a ordem importa
 
 ```python {*}{class:'!children:text-2xl'}
 def my_function(name, fname):
@@ -95,24 +95,8 @@ my_args(1, 2, 4, 6, 8, 10)
 
 ---
 
-# Argumentos Não Nomeados
-`*args`
-
-- Quando a quantidade de argumentos é indefinida adiciona-se `*` antes do parâmetro
-
-```python{*}{class:'!children:text-2xl'}
-def add(*num):
-    sum = 0
-    for n in nums:
-        sum += n
-    print(sum)
-
-add(1, 2, 4, 6, 8, 10)
-```
-
----
-
 # Retornando valores
+`return`
 
 - Funções podem devolver valores, resultados das operações
 
@@ -129,10 +113,12 @@ print(f"Soma vale: {add(7,6,3)}")
 ---
 
 # Retornando valores
+`return`
 
 ```python{*}{class:'!children:text-2xl'}
 def area_ret(base, altura):
     return base * altura
+
 print("=== Área do Retângulo ===")
 b = int(input("Entre com a base do retângulo:"))
 h = int(input("Entre com a altura do retângulo:"))
@@ -264,7 +250,6 @@ else:
 Como executar no Google Colab
 
 4. Se esse código for executado num ambiente local, ou seja na sua própria máquina, nenhum erro será exibido. Porém, como está sendo executado no ambiente do Google é necessário fazer com que o Colab "enxergue" um arquivo externo
-
 5. Adicione as linhas de código abaixo e em seguida tente rodar novamente
 
 ```python{*}{lines: false, class:'!children:text-xl'}
